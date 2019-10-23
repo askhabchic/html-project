@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
@@ -10,13 +12,15 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1307px;
   margin: auto;
+  padding: 0 15px;
 }
 
 .button {
   color: #030303;
   background-color: #ffc800;
+  font-family: 'Proxima Nova Regular';
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -338,10 +342,15 @@ template, [hidden] {
  * Add the correct display in IE 10.
  */
 .navbar {
-  padding: 8px 0 1px;
+  padding: 1px;
+  background-image: url("../img/navbar_background.jpg");
+  background-size: 30%;
+  background-origin: content-box;
+  background-position: right;
+  text-decoration: none;
 }
 
-.navbar-block {
+.navbar-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,26 +360,33 @@ template, [hidden] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
   text-decoration: none;
 }
 
-.navbar__menu {
+.navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-decoration: none;
+  max-width: 765px;
+  width: 100%;
+  padding: 0;
   color: #000000;
+  margin-top: -5px;
+  margin-left: 43px;
 }
 
 .navbar__logo {
   padding-left: 20px;
+  margin-left: 44px;
 }
 
 .navbar__info {
-  background-color: #f1bbbb11;
   text-decoration: none;
 }
 
@@ -378,63 +394,79 @@ template, [hidden] {
   color: #000000;
   font-size: 18px;
   text-transform: uppercase;
+  font-family: 'Proxima Nova Regular', sans-serif;
 }
 
 .navbar__button {
-  padding: 10px 15px;
+  padding: 7px 17px;
   border: none;
   font-size: 14px;
+  margin: 0 43px;
+  font-family: 'Proxima Nova Regular', sans-serif;
 }
 
 .menu__item {
   color: #000000;
   font-size: 16px;
+  padding: 0 27px;
+  font-size: 16px;
+}
+
+.nav-item {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  line-height: 12px;
+  font-family: 'Proxima Nova Regular', sans-serif;
+}
+
+.nav-item:first-child {
+  border-left: none;
+  padding-left: 20px;
 }
 
 @font-face {
   font-family: 'Proxima Nova Light';
-  src: url("../fonts/ProximaNova-Light.eot");
-  src: url("../fonts/ProximaNova-Light/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff"), format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  src: url("../fonts/ProximaNova/ProximaNovaLight.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaLight.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaLight.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Bold';
-  src: url("../fonts/ProximaNova-Bold.eot");
-  src: url("../fonts/ProximaNova-Bold/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff"), format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  src: url("../fonts/ProximaNova/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaBold.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Thin';
-  src: url("../fonts/ProximaNovaT-Thin.eot");
-  src: url("../fonts/ProximaNovaT-Thin/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaT-Thin.woff"), format("woff"), url("../fonts/ProximaNovaT-Thin.ttf") format("truetype");
+  src: url("../fonts/ProximaNova/ProximaNovaTThin.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaTThin.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaTThin.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaTThin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Regular';
-  src: url("../fonts/ProximaNova-Regular.eot");
-  src: url("../fonts/ProximaNova-Regular/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff"), format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/ProximaNova/ProximaNovaRegular.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaRegular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNovaRegular.ttf") format("truetype");
   font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Semibold';
-  src: url("../fonts/ProximaNova-Semibold.eot");
-  src: url("../fonts/ProximaNova-Semibold/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff"), format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  src: url("../fonts/ProximaNova/ProximaNovaSemibold.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaSemibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaSemibold.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaSemibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Italic';
-  src: url("../fonts/ProximaNova-RegularIt.eot");
-  src: url("../fonts/ProximaNova-RegularIt/?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-RegularIt.woff"), format("woff"), url("../fonts/ProximaNova-RegularIt.ttf") format("truetype");
+  src: url("../fonts/ProximaNova/ProximaNovaRegularIt.eot");
+  src: url("../fonts/ProximaNova/ProximaNovaRegularIt.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaRegularIt.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaRegularIt.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }

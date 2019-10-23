@@ -5,37 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LOGO</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style.css.map">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-  <div class="navbar">
-    <div class="container">
-      <div class="navbar-block">
+  <div class="navbar ">
+    <div class="container-fluid">
+      <div class="navbar-header">
         <div class="navbar__logo">
-          <a href="#">
+          <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="LOGO">
           </a> 
         </div><!-- /.navbar__logo -->
-        <div class="navbar__menu">
-          <div class="menu__block">
-            <a href="#" class="menu__item">Услуги</a>
-            <a href="#" class="menu__item">Цены</a>
-            <a href="#" class="menu__item">Отзывы</a>
-            <a href="#" class="menu__item">Новости</a>
-            <a href="#" class="menu__item">Контакты</a>
-          </div>
-        </div><!-- /.navbar__menu -->
+        <div class="navbar-menu" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="#" class="menu__item">Услуги</a></li>
+            <li class="nav-item"><a href="#" class="menu__item">Цены</a></li>
+            <li class="nav-item"><a href="#" class="menu__item">Отзывы</a></li>
+            <li class="nav-item"><a href="#" class="menu__item">Новости</a></li>
+            <li class="nav-item"><a href="#" class="menu__item">Контакты</a></li>
+          </ul> <!-- /.nav navbar-nav -->
+        </div>
         <div class="navbar__info">
-          <a href="tel:+7 (863) 342-22-21" class="navbar__phone"><img src="img/navbar_phone.png">+7 (863) 342-22-21</a><!-- /.navbar__phone -->
+          <a href="tel:+7 (863) 342-22-21" class="navbar__phone"><img src="img/navbar_phone.png">+7 (863) <b>342-22-21</b> </a><!-- .navbar__phone -->
           <button class="button navbar__button">Заказать звонок
           </button><!-- /.button navbar__button -->
         </div><!-- /.navbar__info -->
-        
-       
-        
       </div><!-- /.navbar-block -->
     </div><!-- /.container -->
   </div><!-- /.navbar -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
 </body>
 </html>
