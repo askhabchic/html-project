@@ -1,4 +1,4 @@
-* 
+*
   margin: 0
   padding: 0
   box-sizing: border-box
@@ -6,14 +6,29 @@
   text-decoration: none
 body
   font-family: 'Proxima Nova Regular'
-
+  height: 100%
+  outline: none
 .container
-  width: 1307px
+  width: 1170px
   margin: auto
-  padding: 0 15px
+  // padding: 0 15px
+
 
 .button
   color: #030303
   background-color: #ffc800
-  font-family: 'Proxima Nova Regular'
+  font-family: 'Proxima Nova Regular', sans-serif
+  padding: 7px 17px
+  border: none
 
+// @media (max-width: 1326px) 
+//   .container
+//     width: 1170px
+
+@media (max-width: 1200px) 
+  .container
+    width: 992px
+
+@media (max-width: 992px) 
+  .container
+    width: 768px
