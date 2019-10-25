@@ -1,28 +1,78 @@
+.hero>.container
+  width: inherit
+  height: 742px
+  
 .slider
   height: 100%
   position: relative
-  &__hero
-    &:checked
+  &__hero 
+    height: 742px
+  &-container
+    width: 1170px
+    margin: auto
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    &_1
+      margin-top: -558px
+    &_2
+      margin-top: -1091px
+    &_3
+      margin-top: -1093px
+
+    &_4
+      margin-top: -896px
+      
   &__title
     color: #ffc800
     font-size: 32px
+    // font-weight: 400
+    font-stretch: ultra-expanded
     font-family: "Proxima Nova Semibold", sans-serif
     text-transform: uppercase
+    margin-bottom: 15px
+    z-index: 5
   &__subtitle
     color: #fffffe
     font-family: "Proxima Nova Regular", sans-serif
     font-size: 35px
     font-weight: 400
-    line-height: 55px
+    margin-bottom: 25px
+    z-index: 5
   &__description
     opacity: 0.42
     color: #fffffe
     font-family: "Proxima Nova Regular", sans-serif
     font-size: 20px
+    line-height: 28px
+    margin-bottom: 48px
+    z-index: 5
+
   
-  &__item1
-  background-image: url('img/hero/hero_image.png')
-  background-size: 100%
+
+.button-hero
+    padding: 13px 38px
+    max-width: 185px
+    width: 100%
+    border: none
+    font-size: 18px
+    font-family: 'Proxima Nova Semibold', sans-serif
+    text-transform: uppercase
+.slider__item
+  background-position: center
 
 li 
   list-style-type: none
+
+.slick-slider 
+  width: inherit
+  max-height: 742px
+  height: 100%
+
+.slide__img 
+  top: 0
+
+  z-index: 1
+.slider__img img
+  opacity: .5
+

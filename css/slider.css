@@ -1,0 +1,216 @@
+.slider {
+  height: 100%;
+  position: relative;
+}
+
+.slider__hero {
+  height: 742px;
+}
+
+.slider-container_1 {
+  width: 1170px;
+  margin: auto;
+  margin-top: -558px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slider__title {
+  color: #ffc800;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  font-family: "Proxima Nova Semibold", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.slider__subtitle {
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+
+.slider__description {
+  opacity: 0.42;
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  z-index: 5;
+}
+
+.slider {
+  height: 100%;
+  position: relative;
+}
+
+.slider__hero {
+  height: 742px;
+}
+
+.slider-container_2 {
+  width: 1170px;
+  margin: auto;
+  margin-top: -999px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slider__title {
+  color: #ffc800;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  font-family: "Proxima Nova Semibold", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.slider__subtitle {
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+
+.slider__description {
+  opacity: 0.42;
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  z-index: 5;
+}
+
+.slider {
+  height: 100%;
+  position: relative;
+}
+
+.slider__hero {
+  height: 742px;
+}
+
+.slider-container_3 {
+  width: 1170px;
+  margin: auto;
+  margin-top: -896px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slider__title {
+  color: #ffc800;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  font-family: "Proxima Nova Semibold", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.slider__subtitle {
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+
+.slider__description {
+  opacity: 0.42;
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  z-index: 5;
+}
+
+.slider {
+  height: 100%;
+  position: relative;
+}
+
+.slider__hero {
+  height: 742px;
+}
+
+.slider-container_4 {
+  width: 1170px;
+  margin: auto;
+  margin-top: -558px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slider__title {
+  color: #ffc800;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  font-family: "Proxima Nova Semibold", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  z-index: 5;
+}
+
+.slider__subtitle {
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+
+.slider__description {
+  opacity: 0.42;
+  color: #fffffe;
+  font-family: "Proxima Nova Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  z-index: 5;
+}
+/*# sourceMappingURL=slider.css.map */
