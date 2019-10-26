@@ -12,13 +12,27 @@
 </head>
 <body>
   <header class="navbar ">
+    <img class="nav__bg" src="img/nav_bg.png" alt="">
     <div class="container">
-      <div class="menu__icon">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+      <div class="mobile-menu">
+        <div class="menu-block">
+          <div class="navbar__logo">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="LOGO">
+            </a> 
+          </div>
+          
+          <div class="menu-nav">
+            <a href="#offer">Услуги</a>
+            <a href="#price">Цены</a>
+            <a href="#feedback">Отзывы</a>
+            <a href="#news">Новости</a>
+            <a href="#contacts">Контакты</a>
+          </div>
+          <a href="#" class="menu-btn"><span></span></a>
+        </div>
       </div>
+      
       <nav class="navbar-header">
         <div class="navbar__logo">
           <a class="navbar-brand" href="#">
@@ -56,13 +70,13 @@
             <!-- /.slider__subtitle -->
             <span class="slider__description">Наша бригада из 20 человек сделает всё быстро и недорого в самые кратчайшие сроки.Всё что Вам нужно это оставить заявку либо позвонить самому на указанный номер.Всего хорошего.</span>
             <!-- /.slider__description -->
-            <button class="button button-hero">Подробнее</button> <!-- /.button button-hero -->
+            <button class="button button-hero" id="button-hero">Подробнее</button> <!-- /.button button-hero -->
             </div>
             <!-- /.slider-container -->
           </div>
           <!-- /.slider__contents -->
           <div class="slider__item 2" style="background-image:url(./img/hero/hero_bg.jpg)">
-            <img class="slide__img" src="img/hero/slide_2.jpg" alt="">
+            <img class="slide__img" src="img/hero/slide_2.png" alt="">
             <div class="slider-container_2">
               <h1 class="slider__title">Наша бригада  по монтированию отопления и сантехники</h1>
               <!-- /.slider__titile -->
@@ -70,12 +84,12 @@
               <!-- /.slider__subtitle -->
               <span class="slider__description">Наша бригада из 20 человек сделает всё быстро и недорого в самые кратчайшие сроки.Всё что Вам нужно это оставить заявку либо позвонить самому на указанный номер.Всего хорошего.</span>
               <!-- /.slider__description -->
-              <button class="button button-hero">Подробнее</button> <!-- /.button button-hero -->
+              <button class="button button-hero" id="button-hero">Подробнее</button> <!-- /.button button-hero -->
             </div>
           </div>
           <!-- /.slider__contents -->
           <div class="slider__item 3" style="background-image:url(./img/hero/hero_bg.jpg)">
-            <img class="slide__img" src="img/hero/slide_3.jpg" alt="">
+            <img class="slide__img" src="img/hero/slide_3.png" alt="">
             <div class="slider-container_3">
               <h1 class="slider__title">Наша бригада  по монтированию отопления и сантехники</h1>
               <!-- /.slider__titile -->
@@ -83,12 +97,12 @@
               <!-- /.slider__subtitle -->
               <span class="slider__description">Наша бригада из 20 человек сделает всё быстро и недорого в самые кратчайшие сроки.Всё что Вам нужно это оставить заявку либо позвонить самому на указанный номер.Всего хорошего.</span>
               <!-- /.slider__description -->
-              <button class="button button-hero">Подробнее</button> <!-- /.button button-hero -->
+              <button class="button button-hero" id="button-hero">Подробнее</button> <!-- /.button button-hero -->
             </div>
           </div>
           <!-- /.slider__contents -->
           <div class="slider__item 4" style="background-image:url(./img/hero/hero_bg.jpg)">
-            <img class="slide__img" src="img/hero/slide_4.jpg" alt="">
+            <img class="slide__img" src="img/hero/slide_4.png" alt="">
             <div class="slider-container_4">
               <h1 class="slider__title">Наша бригада  по монтированию отопления и сантехники</h1>
               <!-- /.slider__titile -->
@@ -96,7 +110,7 @@
               <!-- /.slider__subtitle -->
               <span class="slider__description">Наша бригада из 20 человек сделает всё быстро и недорого в самые кратчайшие сроки.Всё что Вам нужно это оставить заявку либо позвонить самому на указанный номер.Всего хорошего.</span>
               <!-- /.slider__description -->
-              <button class="button button-hero">Подробнее</button> <!-- /.button button-hero -->
+              <button class="button button-hero" id="button-hero">Подробнее</button> <!-- /.button button-hero -->
             </div>
           </div><!-- /.slider__contents -->
         </div><!-- /.slider -->
@@ -104,51 +118,60 @@
     </section><!-- /.hero -->
 
     <section class="section price" id="price">
+      <img class="price__bg" src="img/price/bg.png">
       <div class="container">
+        <button class="button button__price price__title">Услуги</button><!-- /.h3 button-price -->
         <div class="price-block">
-          <h3 class="price__title">Услуги</h3><!-- /.h3 button-price -->
-          <div class="cards">
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж систем отопления</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж сантехнического
-                  оборудования</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж канализационного
-                  оборудования</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж систем отопления</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж сантехнического
-                  оборудования</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-            <div class="card price-card">
-              <a href="#" class="card-link">
-                <p class="price__text">Монтаж канализационного
-                  оборудования</p><!-- /.price__text -->
-                <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
-              </a><!-- /.card-link -->
-            </div><!-- /.card price-card -->
-          </div><!-- /.cards -->
+          <!-- <div class="container-cards"> -->
+            <div class="cards">
+              <div class="card price-card" >
+                <a href="#" class="card-link">
+                  <img src="img/price/price_1.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж систем <br> отопления</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+              <div class="card price-card">
+                <a href="#" class="card-link">
+                  <img src="img/price/price_2.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж сантехнического
+                    оборудования</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+              <div class="card price-card">
+                <a href="#" class="card-link">
+                  <img src="img/price/price_3.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж канализационного
+                    оборудования</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+              <div class="card price-card">
+                <a href="#" class="card-link">
+                  <img src="img/price/price_1.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж систем<br> отопления</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+              <div class="card price-card">
+                <a href="#" class="card-link">
+                  <img src="img/price/price_2.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж сантехнического
+                    оборудования</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+              <div class="card price-card">
+                <a href="#" class="card-link">
+                  <img src="img/price/price_3.jpg" alt="" srcset="">
+                  <p class="price__text">Монтаж канализационного
+                    оборудования</p><!-- /.price__text -->
+                  <button class="button button-price__card">Узнать цену</button><!-- /.button button-price__card -->
+                </a><!-- /.card-link -->
+              </div><!-- /.card price-card -->
+            </div><!-- /.cards -->
+          <!-- </div>/.container-cards -->
         </div><!-- /.price-block -->
       </div><!-- /.container -->
     </section><!-- /.section price -->

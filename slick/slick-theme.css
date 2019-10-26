@@ -204,3 +204,33 @@
     color: #ffc800;
     background-color: #ffc800;
 }
+
+@media (max-width: 992px) {
+    .slick-dots  {
+        bottom: 65px;
+    }
+    .slick-dots li button:before {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slick-dots  {
+        bottom: 22px;
+    }
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    .slick-dots  {
+        bottom: 15px;
+    }
+    .slick-dots li button:before {
+        width: 8px;
+        height: 8px;
+    }
+}

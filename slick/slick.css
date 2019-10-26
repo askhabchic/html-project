@@ -117,3 +117,19 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+@media (max-width: 1200px) {
+    .slick-slide  {
+        height: 600px;
+    }  
+}
+@media (max-width: 992px) {
+    .slick-slide  {
+        height: 380px;
+    }  
+}
+@media (max-width: 520px) {
+    .slick-slide  {
+        height: 450px;
+    }  
+}

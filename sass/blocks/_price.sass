@@ -1,0 +1,74 @@
+
+// .container-cards
+//   width: 1170px
+//   margin: auto
+//   background-color: rgba(241, 241, 241, 0.55)
+.price
+  position: relative
+  &-card
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    height: 236px
+    
+  &__text
+    color: #fcfafa
+    font-family: 'Proxima Nova Semibold', sans-serif
+    font-size: 19px
+    line-height: 26px
+    max-width: 250px
+    margin: auto
+    margin-top: -203px
+    margin-bottom: 27px
+  &__title
+    position: absolute
+    left: -32px
+    margin-top: 104px
+    color: #020202
+    font-family: 'Proxima Nova Semibold', sans-serif
+    font-size: 28px
+    text-transform: uppercase
+    pointer-events: none
+    padding: 13px 68px
+    margin-bottom: 75px
+  &__bg
+    position: absolute
+    left: 0
+    top: 133px
+
+.card
+  text-align: center
+  &s
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    padding-top: 203px
+    margin-bottom: 21px
+  
+.button-price__card
+  color: #020202
+  font-family: 'Proxima Nova Semibold', sans-serif
+  font-size: 15px
+  text-transform: uppercase
+
+@media (max-width: 1200px)
+  .card
+    &s
+      justify-content: space-around
+
+
+
+@media (min-width: 993px)
+  .button-price__card
+    &:hover
+      cursor: pointer
+      background-color: #000
+      color: #fdfcfc
+  .price__text
+    &:hover
+      color: #000
+
+      
+  
