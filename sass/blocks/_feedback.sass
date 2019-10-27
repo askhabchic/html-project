@@ -1,5 +1,26 @@
 .feedback
   position: relative
+  &-slider
+    top: 110px
+  &__content
+    display: flex
+  &__container
+    display: flex
+    flex-direction: column
+    margin: 0 auto
+    justify-content: center
+    align-items: center
+    text-align: center
+    max-width: 465px
+    width: 100%
+  &-image
+    max-width: 116px
+  &__subtitle
+    margin-top: 15px
+    margin-bottom: 18px
+    color: #ffc800
+    font-family: 'Proxima Nova Semibold', sans-serif
+    font-size: 20px
   &__title
     position: absolute
     left: -31px
@@ -10,12 +31,20 @@
     text-transform: uppercase
     pointer-events: none
     padding: 14px 63px
-
   &__bg 
     position: absolute
     left: -462px
     top: 0
-    opacity: 0
+    opacity: 0.5
 
-
+.feedback__text
+  color: #fffffd
+  font-family: 'Proxima Nova Regular', sans-serif
+  font-size: 20px
+  line-height: 28px
+  width: 465px
+  height: 80px
+  overflow: hidden
+.open
+  height: 50%
 

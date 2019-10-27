@@ -21,3 +21,9 @@ $(document).ready(function(){
     slidesToScroll: 1
   });
 });
+
+var link = document.getElementById("link"),
+box = document.jquerySelector(".feedback__text");
+link.onclick = function(){
+box.classList.add("open");
+}

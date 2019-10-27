@@ -1590,6 +1590,48 @@ a .price__text {
   position: relative;
 }
 
+.feedback-slider {
+  top: 110px;
+}
+
+.feedback__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedback__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  max-width: 465px;
+  width: 100%;
+}
+
+.feedback-image {
+  max-width: 116px;
+}
+
+.feedback__subtitle {
+  margin-top: 15px;
+  margin-bottom: 18px;
+  color: #ffc800;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-size: 20px;
+}
+
 .feedback__title {
   position: absolute;
   left: -31px;
@@ -1606,6 +1648,20 @@ a .price__text {
   position: absolute;
   left: -462px;
   top: 0;
-  opacity: 0;
+  opacity: 0.5;
+}
+
+.feedback__text {
+  color: #fffffd;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  width: 465px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.open {
+  height: 50%;
 }
 /*# sourceMappingURL=style.css.map */
