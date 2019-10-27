@@ -5,13 +5,14 @@
 //   background-color: rgba(241, 241, 241, 0.55)
 .price
   position: relative
+  height: 847px
   &-card
     display: flex
     justify-content: center
     align-items: center
     text-align: center
-    height: 236px
-    
+    height: 257px
+
   &__text
     color: #fcfafa
     font-family: 'Proxima Nova Semibold', sans-serif
@@ -19,11 +20,11 @@
     line-height: 26px
     max-width: 250px
     margin: auto
-    margin-top: -203px
-    margin-bottom: 27px
+    // margin-top: -187px
+    // margin-bottom: 3px
   &__title
     position: absolute
-    left: -32px
+    left: -33px
     margin-top: 104px
     color: #020202
     font-family: 'Proxima Nova Semibold', sans-serif
@@ -32,21 +33,34 @@
     pointer-events: none
     padding: 13px 68px
     margin-bottom: 75px
-  &__bg
+    // <!-- БЭГРАУНД - НЕ ТРОГАТЬ ВООБЩЕ -->
+  &__bg 
     position: absolute
     left: 0
     top: 133px
-
+.card-link
+  max-height: 257px
+  height: 100%
+  &__img
+    margin-top: 41px
+a .price__text
+  margin-top: -181px 
+  margin-bottom: 31px
 .card
   text-align: center
+  top: 255px
   &s
+    position: relative
     display: flex
     justify-content: space-between
     align-items: center
     flex-wrap: wrap
-    padding-top: 203px
-    margin-bottom: 21px
-  
+    // padding-top: 203px
+    // margin-bottom: 21px
+  &-top
+    padding-top: 349px
+    position: relative
+
 .button-price__card
   color: #020202
   font-family: 'Proxima Nova Semibold', sans-serif
