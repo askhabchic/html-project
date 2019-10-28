@@ -369,9 +369,9 @@ template, [hidden] {
  * Add the correct display in IE 10.
  */
 @font-face {
-  font-family: "Proxima Nova Light";
-  src: url("../fonts/ProximaNova/ProximaNovaLight.eot");
-  src: url("../fonts/ProximaNova/ProximaNovaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaLight.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaLight.ttf") format("truetype");
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Light.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNova-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -726,7 +726,7 @@ template, [hidden] {
 .nav__bg {
   position: absolute;
   top: 0;
-  right: -309px;
+  right: 0;
 }
 
 .nav-item {
@@ -920,6 +920,9 @@ template, [hidden] {
     max-width: 768px;
     width: 100%;
     margin: auto;
+  }
+  .nav__img {
+    display: none;
   }
 }
 
@@ -1454,7 +1457,7 @@ a .price__text {
   font-size: 28px;
   text-transform: uppercase;
   pointer-events: none;
-  padding: 14px 26px;
+  padding: 14px 30px;
   margin-bottom: 75px;
 }
 
@@ -1587,6 +1590,7 @@ a .price__text {
 }
 
 .feedback {
+  height: 584px;
   position: relative;
 }
 
@@ -1646,7 +1650,7 @@ a .price__text {
 
 .feedback__bg {
   position: absolute;
-  left: -462px;
+  left: 0;
   top: 0;
   opacity: 0.5;
 }
@@ -1663,5 +1667,127 @@ a .price__text {
 
 .open {
   height: 50%;
+}
+
+.news {
+  position: relative;
+}
+
+.news__bg {
+  position: absolute;
+  top: 147px;
+}
+
+.news-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-items {
+  width: 100%;
+  margin-top: 188px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-item__mes {
+  margin-top: 46px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news-button {
+  position: absolute;
+  top: 118px;
+  left: -33px;
+  padding: 13px 54px;
+  color: #020202;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.news__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+}
+
+.news__title {
+  color: #020202;
+  font-family: 'Proxima Nova Bold', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.news__title-cont {
+  margin-right: 47px;
+}
+
+.news__text {
+  opacity: 0.83;
+  max-width: 335px;
+  width: 100%;
+  color: #020202;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.day {
+  color: #010101;
+  font-size: 16px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  background-color: #ffc800;
+}
+
+.time {
+  font-family: 'Proxima Nova Light';
+  font-weight: 300;
+}
+
+.button__news-show {
+  margin-top: 66px;
+  margin-bottom: 70px;
+  padding: 18px 41px;
+  color: #020202;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 993px) {
+  .news-item__mes:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .news-item__mes:hover__title-cont:hover {
+    pointer-events: none;
+    text-decoration: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

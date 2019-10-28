@@ -9,7 +9,10 @@ $(document).ready(function(){
   $('.slider-hero').slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    focusOnSelect: true,
+    pauseOnHover: true,
+    speed: 1000,
     slidesToShow: 1,
     adaptiveHeight: false
   });
@@ -21,9 +24,3 @@ $(document).ready(function(){
     slidesToScroll: 1
   });
 });
-
-var link = document.getElementById("link"),
-box = document.jquerySelector(".feedback__text");
-link.onclick = function(){
-box.classList.add("open");
-}

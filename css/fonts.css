@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Proxima Nova Light";
-  src: url("../fonts/ProximaNova/ProximaNovaLight.eot");
-  src: url("../fonts/ProximaNova/ProximaNovaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNovaLight.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNovaLight.ttf") format("truetype");
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/ProximaNova-Light.woff"), format("woff"), url("../fonts/ProximaNova/ProximaNova-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }

@@ -1,0 +1,75 @@
+.news
+  position: relative
+  &__bg
+    position: absolute
+    top: 147px
+  &-block
+    display: flex
+    flex-direction: column
+    align-items: center
+  &-items
+    width: 100%
+    margin-top: 188px
+    display: flex
+    justify-content: space-between
+  &-item__mes
+    margin-top: 46px
+    align-items: center
+    justify-content: center
+  &-button 
+    position: absolute
+    top: 118px
+    left: -33px
+    padding: 13px 54px
+    color: #020202
+    font-family: 'Proxima Nova Semibold', sans-serif
+    font-size: 28px
+    text-transform: uppercase
+  &__content
+    display: flex
+    justify-content: space-between
+    margin-top: 22px
+    align-items: center
+    margin-bottom: 14px
+  &__title
+    color: #020202
+    font-family: 'Proxima Nova Bold', sans-serif
+    font-size: 20px
+    text-transform: uppercase
+    &-cont 
+      margin-right: 47px
+  &__text
+    opacity: 0.83
+    max-width: 335px
+    width: 100%
+    color: #020202
+    font-family: 'Proxima Nova Semibold', sans-serif
+    font-size: 18px
+    line-height: 28px
+.day
+  color: #010101
+  font-size: 16px
+  font-family: 'Proxima Nova Semibold', sans-serif
+  background-color: #ffc800
+.time
+  font-family: 'Proxima Nova Light'
+  font-weight: 300
+.button__news-show
+  margin-top: 66px
+  margin-bottom: 70px
+  padding: 18px 41px
+  color: #020202
+  font-family: 'Proxima Nova Semibold', sans-serif
+  font-size: 20px
+  text-transform: uppercase
+
+@media ( min-width: 993px )
+	.news
+		&-item__mes
+			&:hover
+				cursor: pointer
+				text-decoration: underline
+    &__title-cont
+      &:hover
+        pointer-events: none
+        text-decoration: none
