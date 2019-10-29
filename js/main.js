@@ -9,7 +9,7 @@ $(document).ready(function(){
   $('.slider-hero').slick({
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     focusOnSelect: true,
     pauseOnHover: true,
     speed: 1000,
@@ -18,6 +18,8 @@ $(document).ready(function(){
   });
   $('.feedback-slider').slick({
     infinite: true,
+    focusOnSelect: true,
+    pauseOnHover: true,
     dots: true,
     arrows: false,
     slidesToShow: 2,

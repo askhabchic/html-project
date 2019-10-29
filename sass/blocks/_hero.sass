@@ -13,14 +13,8 @@
     display: flex
     flex-direction: column
     align-items: flex-start
-    &_1
+    &_1, &_2, &_3, &_4
       margin-top: -558px
-    &_2
-      margin-top: -1091px
-    &_3
-      margin-top: -1093px
-    &_4
-      margin-top: -896px
       
   &__title
     color: #ffc800
@@ -37,8 +31,7 @@
     font-weight: 400
     margin-bottom: 25px
     z-index: 5
-    &_3
-      color: 
+ 
   &__description
     opacity: 0.42
     color: #fffffe
@@ -60,6 +53,7 @@
     text-transform: uppercase
 .slider__item
   background-position: center
+ 
 
 li 
   list-style-type: none
@@ -71,7 +65,9 @@ li
 
 .slide__img 
   top: 0
-
+  width: 100vw
+  max-height: 742px
+  height: 100%
   z-index: 1
 .slider__img img
   opacity: .5
@@ -80,22 +76,22 @@ li
   .hero>.container
     height: 600px
   .slider
-    &-container_1 
-      width: 992px
+    &-container_1, &-container_2, &-container_3, &-container_4
+      width: 991px
       padding-left: 10px
       margin-top: -600px
-    &-container_2
-      width: 992px
-      padding-left: 10px
-      margin-top: -1133px
-    &-container_3
-      width: 992px
-      padding-left: 10px
-      margin-top: -1135px
-    &-container_4
-      width: 992px
-      padding-left: 10px
-      margin-top: -938px
+    // &-container_2
+    //   width: 991px
+    //   padding-left: 10px
+    //   margin-top: -600px
+    // &-container_3
+    //   width: 991px
+    //   padding-left: 10px
+    //   margin-top: -600px
+    // &-container_4
+    //   width: 991px
+    //   padding-left: 10px
+    //   margin-top: -600px
     &__title
       font-size: 28px
     &__subtitle
@@ -105,24 +101,24 @@ li
       max-width: 860px
       margin-bottom: 35px
 
-@media ( max-width: 992px)
+@media ( max-width: 991px)
   .slider
-    &-container_1 
+    &-container_1, &-container_2, &-container_3, &-container_4
       width: 768px
       padding-left: 15px
       margin-top: -660px
-    &-container_2
-      width: 768px
-      padding-left: 15px
-      margin-top: -1194px
-    &-container_3
-      width: 768px
-      padding-left: 15px
-      margin-top: -1196px
-    &-container_4
-      width: 768px
-      padding-left: 15px
-      margin-top: -998px
+    // &-container_2
+    //   width: 768px
+    //   padding-left: 15px
+    //   margin-top: -660px
+    // &-container_3
+    //   width: 768px
+    //   padding-left: 15px
+    //   margin-top: -660px
+    // &-container_4
+    //   width: 768px
+    //   padding-left: 15px
+    //   margin-top: -660px
     &__title
       font-size: 27px
       font-stretch: semi-condensed
@@ -145,30 +141,30 @@ li
   .hero>.container
     height: 380px
   .slider
-    &-container_1 
+    &-container_1, &-container_2, &-container_3, &-container_4
       width: 500px
       text-align: center
       align-items: center
       justify-content: center
       margin-top: -668px
-    &-container_2
-      width: 500px
-      text-align: center
-      align-items: center
-      justify-content: center
-      margin-top: -1202px
-    &-container_3
-      width: 500px
-      text-align: center
-      align-items: center
-      justify-content: center
-      margin-top: -1204px
-    &-container_4
-      width: 500px
-      text-align: center
-      align-items: center
-      justify-content: center
-      margin-top: -1007px
+    // &-container_2
+    //   width: 500px
+    //   text-align: center
+    //   align-items: center
+    //   justify-content: center
+    //   margin-top: -668px
+    // &-container_3
+    //   width: 500px
+    //   text-align: center
+    //   align-items: center
+    //   justify-content: center
+    //   margin-top: -1204px
+    // &-container_4
+    //   width: 500px
+    //   text-align: center
+    //   align-items: center
+    //   justify-content: center
+    //   margin-top: -1007px
     &__title
       font-size: 23px
       line-height: 32px
@@ -186,7 +182,6 @@ li
     padding: 9px 25px
     font-size: 15px
     max-width: 150px
-
 @media ( max-width: 520px)
   .hero>.container
     height: 450px
