@@ -46,16 +46,15 @@
   font-weight: normal;
   font-style: normal;
   }
-
 @font-face {
-  font-family: "Proxima Nova Italic";
-  src: url('../fonts/ProximaNova/ProximaNovaRegularIt.eot'); 
-  src: url('../fonts/ProximaNova/ProximaNovaRegularIt.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/ProximaNova/ProximaNovaRegularIt.woff'), format('woff'),
-  url('../fonts/ProximaNova/ProximaNovaRegularIt.ttf') format('truetype');
+  font-family: 'Proxima Nova RegularIt';
+  src: url('../fonts/ProximaNova/ProximaNova-RegularIt.eot');
+  src: url('../fonts/ProximaNova/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova/ProximaNova-RegularIt.woff') format('woff'),
+  url('../fonts/ProximaNova/ProximaNova-RegularIt.ttf') format('truetype');
   font-weight: normal;
-  font-style: italic;
-}  
+  font-style: normal;
+  }
 
 @font-face {
   font-family: 'Proxima Nova Black';
@@ -66,34 +65,3 @@
   font-weight: normal;
   font-style: normal;
   }
-
-@mixin black {
-  font-family: 'Proxima Nova Black', sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-@mixin lt {
-  font-family: 'Proxima Nova Light', sans-serif;
-  font-weight: 100;
-}
-@mixin bold {
-  font-family: 'Proxima Nova Bold', sans-serif;
-  font-weight: bold;
-}
-@mixin it {
-  font-family: 'Proxima Nova Italic', sans-serif;
-  font-weight: normal;
-}
-@mixin sbold {
-  font-family: 'Proxima Nova Semibold', sans-serif;
-  font-weight: 400;
-}
-@mixin reg {
-  font-family: 'Proxima Nova Regular', sans-serif;
-  font-weight: normal;
-}
-@mixin thin {
-  font-family: 'Proxima Nova Thin', sans-serif;
-  font-weight: 100;
-}

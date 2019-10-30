@@ -1,10 +1,90 @@
 .footer
+  font-family: 'Proxima Nova Semibold', sans-serif
   &-container
     display: flex
 ul.contacts-list
   display: flex
   flex-direction: row
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  margin: 50px 0
   &__item
     color: #fdfcfc
+.contacts-list__item a
+  flex-direction: row
+.address-item
+  display: flex 
+.contacts-list
+  display: flex 
 .address__text
+  display: flex
   color: #fdfcfc
+  // font-family: 'Proxima Nova Semibold', sans-serif
+  font-size: 20px
+.placeholder
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(-11deg) brightness(0%) contrast(90%)
+  margin-right: 12px
+.social
+  justify-content: center
+  padding-left: 14px
+  &__img
+    filter: brightness(0) invert(1)
+  &__icons
+    padding: 0 7px 0 0
+.footer__text
+  color: #fefefe
+  // font-family: 'Proxima Nova Semibold', sans-serif
+  font-size: 18px
+.footer__text span
+  border-right: 1px rgba(#ffffff, 0.33) solid 
+  padding-right: 25px
+.footer__text
+  &:last-child
+    padding-left: 18px
+
+.map
+  position: relative
+  &-form
+    position: absolute
+    top: 142px
+    left: 69px
+    background-color: #fff
+    width: 397px
+    height: 385px
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  &-container 
+    width: 305px
+    margin: auto
+  &-content
+    margin-top: 47px
+    display: flex
+    flex-direction: column
+    text-align: center
+    align-items: center
+  &__title
+    color: #030303
+    font-family: 'Proxima Nova Black', sans-serif
+    font-size: 20px
+    text-transform: uppercase
+    margin-bottom: 43px
+    span
+      color: #ffc800
+
+// input.input.input_map в _interface.sass
+//   margin-bottom: 37px
+
+.button__map
+  margin-top: 28px
+  padding: 18px 58px
+  color: #020202
+  font-family: 'Proxima Nova Semibold', sans-serif
+  font-size: 20px
+  text-transform: uppercase
+
+@media ( min-width: 993px )
+  .filter
+    &:hover
+      filter: invert(74%) sepia(70%) saturate(2577%) hue-rotate(3deg) brightness(112%) contrast(101%)
+
+  
