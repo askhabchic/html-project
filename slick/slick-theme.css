@@ -247,13 +247,20 @@
     background-color: #ffc800;
 }
 
-@media (max-width: 991px) {
-    .slick-dots  {
+@media (max-width: 992px) {
+    .slider-hero>ul.slick-dots {
         bottom: 65px;
     }
     .slick-dots li button:before {
         width: 13px;
         height: 13px;
+    }
+    .slider-hero>.slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+    .slick-dots li, 
+    .slick-dots li button {
+        cursor: default;
     }
 }
 

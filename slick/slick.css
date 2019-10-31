@@ -139,13 +139,20 @@
     .slider-hero .slick-slide  {
         height: 600px;
     }  
-
+    
 }
 @media (max-width: 991px) {
     .slider-hero .slick-slide  {
         height: 380px;
     }  
+    .slider-hero .slick-slide img {
+        max-height: 380px;
+        height: 100%;
+        max-width: 991px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 520px) {
     .slider-hero .slick-slide  {
         height: 450px;

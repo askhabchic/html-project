@@ -11,7 +11,7 @@
     filter: grayscale(1)
     transition: 0.5s ease-in-out
   &__text
-    color: #000
+    color: #fcfafa
     font-family: 'Proxima Nova Semibold', sans-serif
     font-size: 19px
     line-height: 26px
@@ -88,25 +88,43 @@ div.a a:last-child
 
 @media (max-width: 1200px)
   .card
-    &s
-      justify-content: space-around
+    margin: auto
+  .cards
+    justify-content: center
+    margin: auto
+  .price-block
+    padding-top: 105px
   .price__title
-    left: -60px
+    left: 0
     margin-top: 75px
     font-size: 25px
     padding: 12px 60px
     margin-bottom: 50px
   .price__bg
     top: 100px
-
+    max-height: 1100px
+    
+@media (max-width: 992px)
+  .price__title
+    margin-top: 0
+    font-size: 19px
+    padding: 11px 45px
+  .price-block
+    padding-top: 15px
+  .price__bg
+    top: 21px
+  .card-link
+    max-width: 350px
+  .price-card
+    filter: grayscale(0)
+  .button-price__card
+    top: 190px
+      
 
 @media (min-width: 993px)
-  // .button-price__card
-  //   &:hover
-  //     cursor: pointer
   .price__text
     &:hover
-      color: #fcfafa
+      color: #000000
   .a:hover a:last-child
     display: inline
     cursor: pointer

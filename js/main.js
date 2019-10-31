@@ -23,6 +23,24 @@ $(document).ready(function(){
     dots: true,
     arrows: false,
     slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   });
 });
+
+var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+$page.animate({
+scrollTop: $($.attr(this, 'href')).offset().top
+}, 700);
+return false;
+});
+
